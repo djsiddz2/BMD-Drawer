@@ -38,27 +38,27 @@ const BootstrapMaterialDesign = (($) => {
     autofill: {
       selector: 'body'
     },
-    checkbox: {
-      selector: '.checkbox > label > input[type=checkbox]'
-    },
-    checkboxInline: {
-      selector: 'label.checkbox-inline > input[type=checkbox]'
-    },
-    collapseInline: {
-      selector: '.bmd-collapse-inline [data-toggle="collapse"]'
-    },
-    drawer: {
-      selector: '.bmd-layout-drawer'
-    },
-    file: {
-      selector: 'input[type=file]'
-    },
-    radio: {
-      selector: '.radio > label > input[type=radio]'
-    },
-    radioInline: {
-      selector: 'label.radio-inline > input[type=radio]'
-    },
+    //checkbox: {
+      //selector: '.checkbox > label > input[type=checkbox]'
+    //},
+    //checkboxInline: {
+      //selector: 'label.checkbox-inline > input[type=checkbox]'
+    //},
+    //collapseInline: {
+      //selector: '.bmd-collapse-inline [data-toggle="collapse"]'
+    //},
+    //drawer: {
+      //selector: '.bmd-layout-drawer'
+    //},
+    //file: {
+      //selector: 'input[type=file]'
+    //},
+    //radio: {
+      //selector: '.radio > label > input[type=radio]'
+    //},
+    //radioInline: {
+      //selector: 'label.radio-inline > input[type=radio]'
+    //},
     ripples: {
       //selector: ['.btn:not(.btn-link):not(.ripple-none)'] // testing only
       selector: [
@@ -71,34 +71,34 @@ const BootstrapMaterialDesign = (($) => {
         '.ripple' // generic marker class to add ripple to elements
       ]
     },
-    select: {
-      selector: ['select']
-    },
-    switch: {
-      selector: '.switch > label > input[type=checkbox]'
-    },
-    text: {
+    //select: {
+      //selector: ['select']
+    //},
+    //switch: {
+      //selector: '.switch > label > input[type=checkbox]'
+    //},
+    //text: {
       // omit inputs we have specialized components to handle - we need to match text, email, etc.  The easiest way to do this appears to be just omit the ones we don't want to match and let the rest fall through to this.
-      selector: [`input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=file]):not([type=button]):not([type=submit]):not([type=reset])`]
-    },
-    textarea: {
-      selector: ['textarea']
-    },
+      //selector: [`input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=file]):not([type=button]):not([type=submit]):not([type=reset])`]
+    //},
+    //textarea: {
+      //selector: ['textarea']
+    //},
     arrive: true,
     // create an ordered component list for instantiation
     instantiation: [
-      'ripples',
-      'checkbox',
-      'checkboxInline',
-      'collapseInline',
+      //'ripples',
+      //'checkbox',
+      //'checkboxInline',
+      //'collapseInline',
       'drawer',
       //'file',
-      'radio',
-      'radioInline',
-      'switch',
-      'text',
-      'textarea',
-      'select',
+      //'radio',
+      //'radioInline',
+      //'switch',
+      //'text',
+      //'textarea',
+      //'select',
       'autofill'
     ]
   }
