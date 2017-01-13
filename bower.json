@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap-material-design",
-  "description": "Bootstrap Material Design 4",
+  "name": "bmd-drawer",
+  "description": "BMD Drawer",
   "keywords": [
     "material",
     "design",
@@ -14,7 +14,7 @@
     "framework",
     "web"
   ],
-  "homepage": "http://fezvrasta.github.io/bootstrap-material-design",
+  "homepage": "http://github.com/djsiddz2/BMD-Drawer",
   "license": "MIT",
   "moduleType": "globals",
   "main": [
